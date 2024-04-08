@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Barakat;
+  src: url(./Fonts/Barakat\ 400.otf);
+}
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Barakat;
+  text-align: center;
+  background-color: #000000;
+  overflow: hidden;
+  
+  
+
+ h1 {
+    color: #fff8f8;
+    font-size: 50PX;
+    padding: 30px;
+    
+  
+  }
+}
+
+.container-fluid {
+  background-image: url("./Assets/rr.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.icon {
+  font-size: 30px;
+  height: 20 vh;
+  margin: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.icon:hover {
+  color: #ffffff;
+}
+.col-auto:hover {
+  color: #ffffff;
+  transform: scale(1.8);
+  transition: color 1s ease, transform 1s ease;
+}
+
+.icon:active {
+  transform: scale(0.9);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 11px;
+  padding: 0px;
+  color: #ffffff79;
+  text-align: center;
+  transform: scale(0.9, 0.9);
+}
+
+@media screen and (max-width: 576px) {
+  .icon {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .icon {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .icon {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .icon {
+    font-size: 40px;
+  }
+}
